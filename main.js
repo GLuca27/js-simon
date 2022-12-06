@@ -6,6 +6,7 @@ function getRndInteger(min, max){
 const numbers = [];
 const numbersElement = document.getElementById('numbers');
 
+
 while( numbers.length < 5 ){
     const numb = getRndInteger(1, 100)
     if( !numbers.includes(numb)){
@@ -17,6 +18,20 @@ numbersElement.innerHTML = numbers;
 
 setTimeout(function(){
     numbersElement.remove();
-}, timer * 1000);
+}, 3000);
+
+setTimeout(function(){
+    
+
+    for(let i = 0; i < 5; i++) {
+        const numb = Number(prompt('Inserisci un numero'));
+    }
+
+    if ( numbersGuessed.length > 0 ){
+        alert('Hai indovinato  numeri, i numeri indovinati sono: ')
+    } else {
+        alert('Non hai indovinato nessun numero')
+    }
+}, 4000);
 
 
