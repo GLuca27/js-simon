@@ -27,7 +27,7 @@ setTimeout(function(){
         const numb = Number(prompt('Inserisci un numero'));
     }
 
-    if ( numbersGuessed.length > 0 ){
+    if ( numb.length > 0 ){
         alert('Hai indovinato  numeri, i numeri indovinati sono: ')
     } else {
         alert('Non hai indovinato nessun numero')
